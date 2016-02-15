@@ -4,7 +4,7 @@
     "description": "Class package manager for javascript",
     "main": "./dist/scripts/classpack-node.js",
     "dependencies": {
-        "bugcore": "0.3.26",
+        "bugcore": "0.3.27",
         "commander": "2.9.0",
         "email-validator": "1.0.4",
         "firebase": "2.4.0",

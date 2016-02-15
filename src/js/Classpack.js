@@ -69,7 +69,7 @@ const Classpack = Class.extend(Obj, {
      * }} configObject
      */
     configure(configObject) {
-
+        console.log(configObject);
     },
 
     /**
@@ -80,7 +80,7 @@ const Classpack = Class.extend(Obj, {
      * @return {Promise}
      */
     configDelete(key, options) {
-
+        console.log(key, options);
     },
 
     /**
@@ -91,7 +91,7 @@ const Classpack = Class.extend(Obj, {
      * @returns {Promise}
      */
     configGet(key, options) {
-
+        console.log(key, options);
     },
 
     /**
@@ -103,7 +103,7 @@ const Classpack = Class.extend(Obj, {
      * @return {Promise}
      */
     configSet(key, value, options) {
-
+        console.log(key, value, options);
     },
 
     /**
@@ -114,7 +114,7 @@ const Classpack = Class.extend(Obj, {
      * @return {Promise}
      */
     context(options) {
-
+        console.log(options);
     },
 
     /**
@@ -122,7 +122,7 @@ const Classpack = Class.extend(Obj, {
      * @return {function(function(Error), *...)}
      */
     get(recipeQuery) {
-
+        console.log(recipeQuery);
     },
 
     /**
@@ -134,7 +134,7 @@ const Classpack = Class.extend(Obj, {
      * @return {Promise}
      */
     login(email, password, options) {
-
+        console.log(email, password, options);
     },
 
     /**
@@ -144,18 +144,18 @@ const Classpack = Class.extend(Obj, {
      * @return {Promise}
      */
     logout(options) {
-
+        console.log(options);
     },
 
     /**
-     * @param {string} recipePath
+     * @param {string} classpackPath
      * @param {{
      *      target: string=
      * }=} options
      * @return {Promise}
      */
-    publish(recipePath, options) {
-
+    publish(classpackPath, options) {
+        console.log(classpackPath, options);
     },
 
     /**
@@ -168,7 +168,7 @@ const Classpack = Class.extend(Obj, {
      * @return {Promise}
      */
     signUp(username, email, password, options) {
-
+        console.log(username, email, password, options);
     }
 });
 
